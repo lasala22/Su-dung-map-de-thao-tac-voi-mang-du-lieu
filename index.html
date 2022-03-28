@@ -15,10 +15,7 @@
         {"ID": "SP11", "Name": "Bell's Sparrow", "Type": "Sparrow" },
         {"ID": "DV2", "Name": "Mourning Dove", "Type": "Dove" }
         ];
-        const typeBird= birds.map(type);
-        function type(bird) {
-            return bird.ID;
-        }
+        const typeBird= birds.map(type => type.Name);
         console.log(typeBird);
     </script>
 </body>
